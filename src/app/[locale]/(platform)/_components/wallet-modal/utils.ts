@@ -16,7 +16,7 @@ export const TRANSFER_PAYMENT_METHODS = [
   'polygon',
   'usdc',
 ] as const
-export const TEST_MODE_DISCORD_URL = 'https://discord.gg/nilo'
+export const TEST_MODE_DISCORD_URL = 'https://discord.gg/kuest'
 
 export const WITHDRAW_TOKEN_OPTIONS = [
   { value: 'USDC', label: 'USDC', icon: '/images/withdraw/token/usdc.svg', enabled: true },
