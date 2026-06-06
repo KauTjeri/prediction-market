@@ -144,7 +144,7 @@ function useShareOnXHandler(payload: ShareCardPayload | null) {
       const profilePath = buildPublicProfilePath(profileSlug) ?? '/@user'
       const profileUrl = new URL(profilePath, baseUrl).toString()
       const shareText = [
-        t('I just put my money where my mouth is on @nilo.'),
+        t('I just put my money where my mouth is on @kuest.'),
         '',
         t('Trade against me: {url}', { url: profileUrl }),
       ].join('\n')

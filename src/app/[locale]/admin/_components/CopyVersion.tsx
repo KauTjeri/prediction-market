@@ -141,7 +141,7 @@ function ForkSyncWarning({ forkRepositoryUrl, upstreamCommitSha }: ForkSyncWarni
           <div className="space-y-1">
             <p className="text-sm font-semibold text-foreground">{title}</p>
             <p className="text-xs text-muted-foreground">
-              {t('Your fork is not synced with the latest nilo version. Open your project on GitHub and click')}
+              {t('Your fork is not synced with the latest Kuest version. Open your project on GitHub and click')}
               {' '}
               {forkRepositoryUrl
                 ? (

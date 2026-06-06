@@ -364,7 +364,7 @@ export default function AllowedMarketCreatorsManager({
           <div className="space-y-1">
             <Label>{t('Allowed mirrored market sources')}</Label>
             <p className="text-xs text-muted-foreground">
-              {t('Add the URL of another prediction market running on nilo to import its wallets automatically, or add a wallet with a display name.')}
+              {t('Add the URL of another prediction market running on Kuest to import its wallets automatically, or add a wallet with a display name.')}
             </p>
           </div>
 
