@@ -73,7 +73,7 @@ describe('theme settings runtime resolver', () => {
           pwa_icon_192_path: { value: 'theme/pwa-192.png', updated_at: '2026-01-01T00:00:00.000Z' },
           pwa_icon_512_path: { value: 'theme/pwa-512.png', updated_at: '2026-01-01T00:00:00.000Z' },
           site_google_analytics: { value: 'G-TEST123', updated_at: '2026-01-01T00:00:00.000Z' },
-          site_discord_link: { value: 'https://discord.gg/kuest', updated_at: '2026-01-01T00:00:00.000Z' },
+          site_discord_link: { value: 'https://discord.gg/yaks3MPG', updated_at: '2026-01-01T00:00:00.000Z' },
           site_support_url: { value: 'https://kuest.com/support', updated_at: '2026-01-01T00:00:00.000Z' },
         },
       },
@@ -93,7 +93,7 @@ describe('theme settings runtime resolver', () => {
     expect(state.site.description).toBe('Lime branded market')
     expect(state.site.logoMode).toBe('svg')
     expect(state.site.googleAnalyticsId).toBe('G-TEST123')
-    expect(state.site.discordLink).toBe('https://discord.gg/kuest')
+    expect(state.site.discordLink).toBe('https://discord.gg/yaks3MPG')
     expect(state.site.supportUrl).toBe('https://kuest.com/support')
     expect(state.site.pwaIcon192Url).toContain('theme/pwa-192.png')
     expect(state.site.pwaIcon512Url).toContain('theme/pwa-512.png')

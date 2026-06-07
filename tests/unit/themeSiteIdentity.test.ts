@@ -92,7 +92,7 @@ describe('theme site identity helpers', () => {
     expect(validateThemeSiteGoogleAnalyticsId('bad id', 'Google Analytics ID').error).toContain('invalid format')
 
     expect(validateThemeSiteExternalUrl('', 'Discord link')).toEqual({ value: null, error: null })
-    expect(validateThemeSiteExternalUrl('discord.gg/kuest', 'Discord link')).toEqual({ value: 'https://discord.gg/kuest', error: null })
+    expect(validateThemeSiteExternalUrl('discord.gg/yaks3MPG', 'Discord link')).toEqual({ value: 'https://discord.gg/yaks3MPG', error: null })
     expect(validateThemeSiteExternalUrl('ftp://example.com', 'Discord link').error).toContain('http:// or https://')
   })
 

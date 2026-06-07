@@ -124,7 +124,7 @@ Kalshi can do that one deal at a time. Kuest makes the same capability available
 <p>
   <a href="https://x.com/kuest"><img alt="X" src="https://img.shields.io/badge/X-@kuest-000?logo=x&style=social" /></a>
   &nbsp;
-  <a href="https://discord.gg/kuest"><img alt="Discord" src="https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&style=social" /></a>
+  <a href="https://discord.gg/yaks3MPG"><img alt="Discord" src="https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&style=social" /></a>
   &nbsp;
   <a href="https://kuest.com"><img alt="Website" src="https://img.shields.io/badge/Website-kuest.com-111?style=social" /></a>
   &nbsp;
