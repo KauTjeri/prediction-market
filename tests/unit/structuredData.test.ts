@@ -105,7 +105,7 @@ describe('structuredData', () => {
       ...createDefaultThemeSiteIdentity(),
       name: 'Kuest',
       description: 'Prediction markets',
-      discordLink: 'https://discord.gg/yaks3MPG',
+      discordLink: 'https://discord.gg/kuest',
       twitterLink: 'https://x.com/kuest',
       facebookLink: 'https://facebook.com/kuest',
       instagramLink: null,
@@ -120,7 +120,7 @@ describe('structuredData', () => {
     })
 
     expect(structuredData.organization.sameAs).toEqual([
-      'https://discord.gg/yaks3MPG',
+      'https://discord.gg/kuest',
       'https://x.com/kuest',
       'https://facebook.com/kuest',
       'https://linkedin.com/company/kuest',
