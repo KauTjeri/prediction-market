@@ -33,7 +33,7 @@ export default function TestModeBanner({
 }: TestModeBannerProps) {
   const { closeBanner, closed } = useTestModeBannerClosedState(persistKey)
 
-  const discordUrl = 'https://discord.gg/kuest'
+  //const discordUrl = 'https://discord.gg/kuest'
   const t = useExtracted()
 
   if (closed) {
